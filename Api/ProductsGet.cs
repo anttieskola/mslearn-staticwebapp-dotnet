@@ -21,7 +21,6 @@ namespace Api
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "products")] HttpRequest req,
             ILogger log)
         {
-            log.LogInformation("ProductsGet");
             var products = await _productData.GetProducts();
             return new OkObjectResult(products);
         }

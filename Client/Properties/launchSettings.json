@@ -13,7 +13,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": "https://localhost:30001;http://localhost:30002",
+      "applicationUrl": "https://localhost:30001",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
